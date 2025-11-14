@@ -1,0 +1,8 @@
+# Laravel 関連
+/src/vendor/
+/src/node_modules/
+/src/.env
+/src/storage/*.key
+
+# Docker MySQL データ
+/docker/mysql/data/
