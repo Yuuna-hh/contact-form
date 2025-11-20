@@ -12,6 +12,8 @@ class Contact extends Model
         'name',
         'email',
         'tel',
-        'content'
+        'reply_method',
+        'content',
+        'image_path',
     ];
 }

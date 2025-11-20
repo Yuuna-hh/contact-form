@@ -50,6 +50,13 @@
     height: 40px;
 }
 
+.form__input--radio input[type="radio"] {
+    appearance: auto;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
 .form__input--textarea textarea {
     height: 180px;
 }

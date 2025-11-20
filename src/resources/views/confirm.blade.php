@@ -31,6 +31,14 @@
                                 <input type="tel" name="tel" value="{{ $contact['tel'] }}" readonly />
                             </td>
                         </tr>
+
+                        <tr class="confirm-table__row">
+                            <th class="confirm-table__header">返信を受け取る方法</th>
+                            <td class="confirm-table__text">
+                                <input type="text" name="reply_method" value="{{ $contact['reply_method'] }}" readonly />
+                            </td>
+                        </tr>
+
                         <tr class="confirm-table__row">
                             <th class="confirm-table__header">お問い合わせ内容</th>
                             <td class="confirm-table__text">

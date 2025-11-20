@@ -58,6 +58,32 @@
 
                 <div class="form__group">
                     <div class="form__group-title">
+                        <span class="form__label--item">お問い合わせの返信を受け取る方法</span>
+                        <span class="form__label--required">必須</span>
+                    </div>
+
+                    <div class="form__group-content">
+                        <div class="form__input--radio">
+                            <label>
+                                <input type="radio" name="reply_method" value="メール" {{ old('reply_method', 'メール') == 'メール' ? 'checked' : '' }}>
+                                メール
+                            </label>
+
+                            <label>
+                                <input type="radio" name="reply_method" value="電話" {{ old('reply_method', 'メール') == '電話' ? 'checked' : '' }}>
+                                電話
+                            </label>
+
+                            <label>
+                                <input type="radio" name="reply_method" value="SMS" {{ old('reply_method', 'メール') == 'SMS' ? 'checked' : '' }}>
+                                SMS
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <div class="form__group-title">
                         <span class="form__label--item">お問い合わせ内容</span>
                         <span class="form__label--required">必須</span>
                     </div>
